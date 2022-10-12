@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>pagina principal</title>
+
+<link rel="stylesheet" href="./pagina principal_files/style.css"></head>
+
+<body>
+    <header id="top">
+        <h1>VACUNACION COVID 19</h1>
+        <hr>
+        <nav class="linkinicial">
+            <a href="https://www.facebook.com/" target="_blank">FACEBOOK</a>
+            <a href="https://www.instagram.com/" target="_blank">INSTAGRAM</a>  
+            <a href="https://twitter.com/?lang=es" target="_blank">TWITTER</a>         
+        </nav>
+
+        <div class="contacto">
+            <ol>
+                <li><a href="http://127.0.0.1:5500/acerca-de-mi.html">Acerca de mi</a></li>
+                <li><a href="http://127.0.0.1:5500/productos.html">Productos</a></li>
+                <li><a href="http://127.0.0.1:5500/carga-de-productos.html">Carga de productos</a></li>
+                <li><a href="http://127.0.0.1:5500/registro.html">Registro</a></li>
+                <li><a href="http://127.0.0.1:5500/contacto">Contacto</a></li>
+
+            </ol>
+        </div>
+
+
+    </header>
+    <section>
+        <div class="fondotexto">
+            <h3 class="subtitulo">vacunacion en niños</h3>
+            <p class="parrafo">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit saepe nam nostrum laboriosam corrupti, porro illo odit provident qui mollitia repellat nulla rerum quaerat tempore, molestiae eaque error obcaecati delectus.
+            </p>
+            <p class="parrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, accusantium eaque, consequuntur deserunt quibusdam deleniti exercitationem hic debitis, fugit vel numquam quas esse ducimus quod reiciendis recusandae nisi voluptate quidem.
+            </p>
+        </div>
+        <div>
+            <img class="imagenes" src="./pagina principal_files/CXNV3MMHJENV6ACR722VE4E6ZM.jpg" alt="vacuna"><br>
+            <br>
+            <strong> <em> <p class="subtitulo">IMAGEN 2</p></em></strong>
+            <img class="imagenes" src="./pagina principal_files/vacunas_covid.webp" alt="vacuna2">
+        <br>
+
+        </div>
+        <div>
+            <strong><h2 class="subtitulo"><em>EL MUNDO</em> </h2></strong>
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nesciunt sint quis tenetur ullam temporibus excepturi, pariatur magnam aut iste ipsa, praesentium vitae voluptatum vel eaque, deleniti nobis doloribus aspernatur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure amet aut exercitationem placeat accusamus quisquam est rem molestias modi quod. Quas sed dolorum sapiente rem ipsam? Incidunt ea eaque vero!Lorem</p>
+        </div>
+        <div class="parrafo">
+            <ul>
+                <li>argentina</li>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus laborum, praesentium voluptatum aperiam accusantium consequuntur ex? Voluptatum sit nobis ea, totam saepe, neque odit necessitatibus corporis veritatis eveniet animi? Dolorum.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, quos. Illum rerum explicabo natus nesciunt quibusdam repudiandae. Tenetur, recusandae soluta! Necessitatibus harum iusto quis blanditiis aliquam accusamus rerum ut enim.</li>
+            </ul>
+        </div>
+
+    </section>
+    <footer>
+        <h4 class="subtitulo">Referencias</h4>
+        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, fugit iste voluptate alias ab aliquam voluptatibus numquam quia dolorem quod qui accusantium animi dolores. Cupiditate amet eum exercitationem obcaecati cumque.</p>
+    <a href="http://127.0.0.1:5500/index.html#top">comienzo</a>
+    </footer>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
